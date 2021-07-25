@@ -5,6 +5,10 @@ public class Aluno {
     final double nota;
     final boolean eEstudiosa;
 
+    public Aluno(String nome, double nota) {
+        this(nome, nota, true);
+    }
+
     public Aluno(String nome, double nota, boolean eEstudiosa) {
         this.nome = nome;
         this.nota = nota;
