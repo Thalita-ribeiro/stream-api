@@ -14,4 +14,9 @@ public class Aluno {
         this.nota = nota;
         this.eEstudiosa = eEstudiosa;
     }
+
+    @Override
+    public String toString() {
+        return nome + " tem nota " + nota;
+    }
 }
